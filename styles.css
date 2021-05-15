@@ -1,0 +1,117 @@
+/* General Default Styles */
+html {
+	font-size: 10px;
+	background-color: #f7f7f9;
+	text-align: center;
+}
+
+h1 {
+	display: inline-block;
+	font-size: 5rem;
+}
+
+h2 {
+	font-size: 3rem;
+}
+
+a,
+p {
+	font-size: 2rem;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+/* General Page Set Up */
+.wrapper {
+	max-width: 1200px;
+	margin: auto;
+}
+
+/* Header Styles */
+header {
+	position: relative;
+}
+
+.banner {
+	background-image: url('assets/WE_banner.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 50vh;
+	width: 100%;
+	margin: auto 0px;
+}
+
+.logo {
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	bottom: -100px;
+	left: calc(50% - 100px);
+	border-radius: 100%;
+	background-color: rgba(218, 114, 146);
+}
+
+.logo img {
+	height: 100%;
+	width: 100%;
+}
+
+/* Main Styles */
+.about {
+	margin: 5% auto;
+}
+
+.about p {
+	margin: 20px auto;
+	line-height: 2.2rem;
+}
+
+.waifu_engine {
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, rgba(218, 114, 146, .5) 50%);
+}
+
+.waifu_engine_blue {
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, rgba(113, 222, 188, .5) 50%);
+}
+
+.announcement {
+	text-align: center;
+	margin: 150px auto 50px;
+}
+
+.social_media {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.social_media h2 {
+	width: 100%;
+}
+
+.social_media_card {
+	text-align: center;
+	width: calc((100% / 4) - 50px);
+}
+
+.social_media_card a {
+	color: rgba(218, 114, 146);
+	transition: color ease-in-out 0.3s;
+}
+
+.social_media_card a:hover,
+.social_media_card a:focus {
+	color: rgba(113, 222, 188);
+}
+
+.social_media_card i {
+	font-size: 5rem;
+	margin: 10%;
+}
+/* Footer Styles */
