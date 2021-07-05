@@ -1,46 +1,10 @@
-/* General Default Styles */
-html {
-	font-size: 10px;
-	background-color: #f7f7f9;
-	text-align: center;
-	font-family: 'norwester', sans-serif;
-}
-
-h1 {
-	display: inline-block;
-	font-size: 5rem;
-}
-
-h2 {
-	font-size: 3rem;
-}
-
-a,
-p {
-	font-size: 2rem;
-}
-
-a {
-	text-decoration: none;
-}
-
-ul {
-	list-style: none;
-}
-
-/* General Page Set Up */
-.wrapper {
-	max-width: 1200px;
-	margin: auto;
-}
-
 /* Header Styles */
 header {
 	position: relative;
 }
 
 .banner {
-	background-image: url('assets/WE_banner.png');
+	background-image: url('../../assets/WE_banner.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	height: 50vh;
@@ -55,7 +19,7 @@ header {
 	bottom: -100px;
 	left: calc(50% - 100px);
 	border-radius: 100%;
-	background-color: rgba(218, 114, 146);
+	background-color: $waifuEnginePink;
 }
 
 .logo img {
@@ -102,13 +66,13 @@ header {
 }
 
 .social_media_card a {
-	color: rgba(218, 114, 146);
+	color: $waifuEnginePink;
 	transition: color ease-in-out 0.3s;
 }
 
 .social_media_card a:hover,
 .social_media_card a:focus {
-	color: rgba(113, 222, 188);
+	color: $waifuEngineBlue;
 }
 
 .social_media_card i {
