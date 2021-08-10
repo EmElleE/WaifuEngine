@@ -2,7 +2,7 @@
 html {
 	font-size: 10px;
 	background-color: #f7f7f9;
-	text-align: center;
+	/* text-align: center; */
 	font-family: 'norwester', sans-serif;
 }
 
@@ -48,29 +48,15 @@ header {
 	margin: auto 0px;
 }
 
-.logo {
-	height: 200px;
-	width: 200px;
-	position: absolute;
-	bottom: -100px;
-	left: calc(50% - 100px);
-	border-radius: 100%;
-	background-color: rgba(218, 114, 146);
-}
-
 .logo img {
 	height: 100%;
 	width: 100%;
 }
 
 /* Main Styles */
-.about {
-	margin: 5% auto;
-}
-
-.about p {
-	margin: 20px auto;
-	line-height: 2.2rem;
+#main_content {
+	height: 50vh;
+	overflow: auto;
 }
 
 .waifu_engine {
@@ -81,15 +67,9 @@ header {
 	background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, rgba(113, 222, 188, .5) 50%);
 }
 
-.announcement {
-	text-align: center;
-	margin: 150px auto 50px;
-}
-
-.social_media {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
+#announcement {
+	max-height: 50vh;
+	overflow: auto;
 }
 
 .social_media h2 {
@@ -98,14 +78,19 @@ header {
 
 .social_media_card {
 	text-align: center;
-	width: calc((100% / 4) - 50px);
 }
 
+#announcement a,
+#review a,
 .social_media_card a {
 	color: rgba(218, 114, 146);
 	transition: color ease-in-out 0.3s;
 }
 
+#announcement a:hover,
+#announcement a:focus,
+#review a:hover,
+#review a:focus,
 .social_media_card a:hover,
 .social_media_card a:focus {
 	color: rgba(113, 222, 188);
