@@ -34,7 +34,7 @@ ul {
 
 /* Header Styles */
 header {
-	position: relative;
+	height: 28vh;
 }
 
 .logo img {
@@ -44,7 +44,7 @@ header {
 
 /* Main Styles */
 #main_content {
-	max-height: 100vh;
+	height: 70vh;
 	overflow: auto;
 }
 
