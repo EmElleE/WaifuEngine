@@ -100,4 +100,22 @@ header {
 	font-size: 5rem;
 	margin: 10%;
 }
+
+.iframe-container {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	min-height: 169px;
+	padding-top: 56.25%;
+}
+
+.iframe {
+	position: absolute;
+	top: 0;
+	left: 12.50%;
+	bottom: 0;
+	right: 12.50%;
+	width: 75%;
+	height: 100%;
+}
 /* Footer Styles */

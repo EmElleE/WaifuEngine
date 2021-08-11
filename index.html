@@ -24,18 +24,18 @@
 </head>
 
 <body>
-  <header class="wrapper">
+  <header class="wrapper d-none d-md-block">
     <div class="banner"></div>
   </header>
   
   <main class="wrapper">
     <div id="main" class="row col-12">
-      <div class="col-2">
+      <div class="col-12 col-md-2">
         <div class="logo mb-5">
           <img src="./assets/WE_icon.png" alt="logo image consisting of a W and E">
         </div>
         <!-- TODO: Set active state on nav links -->
-        <nav id="nav_list" class="nav nav-pills list-group" role="tablist">
+        <nav id="nav_list" class="text-center text-md-left nav nav-pills list-group" role="tablist">
           <a class="nav-link list-group-item list-group-item-action" href="#announcement">
             Announcements
           </a>
@@ -54,7 +54,7 @@
         </nav>
       </div>
   
-      <div id="main_content" data-spy="scroll" data-target="#nav_list" data-offset="0" class="scrollspy-example col-10">
+      <div id="main_content" data-spy="scroll" data-target="#nav_list" data-offset="0" class="scrollspy-example col-12 col-md-10">
         <div id="announcement" class="card shadow rounded-lg mb-5">
           <div class="text-center card-header">
             <h1 class="waifu_engine_blue ">
@@ -107,7 +107,7 @@
           </div>
 
           <div class="row col-12 card-body justify-content-center p-5">
-            <div id="patreon" class="patreon social_media_card col-4">
+            <div id="patreon" class="patreon social_media_card col-4 mb-5">
               <a href="https://bit.ly/3u2T5Id" target="_blank" title="Open Waifu Engine Patreon in new tab">
                 <i class="fab fa-patreon"></i>
               </a>
@@ -115,7 +115,7 @@
                 Support us on <span class="waifu_engine">Patreon</span>.
               </p>
             </div>
-            <div id="discord" class="discord social_media_card col-4">
+            <div id="discord" class="discord social_media_card col-4 mb-5">
               <a href="https://bit.ly/2T9J3IO" target="_blank" title="Open Waifu Engine Discord in new tab">
                 <i class="fab fa-discord"></i>
               </a>
@@ -123,7 +123,7 @@
                 Stay connected on <span class="waifu_engine">Discord</span>.
               </p>
             </div>
-            <div id="reddit" class="reddit social_media_card col-4">
+            <div id="reddit" class="reddit social_media_card col-4 mb-5">
               <a href="https://bit.ly/3eVDzJW" target="_blank" title="Open Waifu Engine subreddit in new tab">
                 <i class="fab fa-reddit-square"></i>
               </a>
@@ -131,7 +131,7 @@
                 Join our community on <span class="waifu_engine">Reddit</span>.
               </p>
             </div>
-            <div id="twitter" class="twitter social_media_card col-4">
+            <div id="twitter" class="twitter social_media_card col-4 mb-5">
               <a href="https://bit.ly/3eW6pK9" target="_blank" title="Open Waifu Engine Twitter Feed in new tab">
                 <i class="fab fa-twitter-square"></i>
               </a>
@@ -139,7 +139,7 @@
                 Follow updates on <span class="waifu_engine">Twitter</span>.
               </p>
             </div>
-            <div id="youtube" class="youtube social_media_card col-4">
+            <div id="youtube" class="youtube social_media_card col-4 mb-5">
               <a href="https://bit.ly/2VHdWpk" target="_blank" title="Open Waifu Engine's YouTube Channel in new tab">
                 <i class="fab fa-youtube-square"></i>
               </a>
@@ -147,7 +147,6 @@
                 Follow updates on <span class="waifu_engine">YouTube</span>.
               </p>
             </div>
-            
           </div>
         </div>
         
@@ -157,9 +156,9 @@
               Download
             </h1>
           </div>
-
-          <div class="card-body mx-auto p-5">
-            <iframe src="https://itch.io/embed/1153805?linkback=true&amp;border_width=2&amp;bg_color=2b2d42&amp;fg_color=41e2ba&amp;link_color=e86a92&amp;border_color=41e2ba" width="554" height="169" frameborder="0" class="">
+          <!-- width="554" height="169" -->
+          <div class="card-body mx-auto p-5 iframe-container">
+            <iframe src="https://itch.io/embed/1153805?linkback=true&amp;border_width=2&amp;bg_color=2b2d42&amp;fg_color=41e2ba&amp;link_color=e86a92&amp;border_color=41e2ba" frameborder="0" class="iframe">
               <a href="https://waifuengine.itch.io/waifu-engine">Waifu Engine by Tensor-chan</a>
             </iframe>
           </div>
