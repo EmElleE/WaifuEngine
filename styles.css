@@ -1,8 +1,6 @@
 /* General Default Styles */
 html {
 	font-size: 10px;
-	background-color: #f7f7f9;
-	/* text-align: center; */
 	font-family: 'norwester', sans-serif;
 }
 
@@ -39,15 +37,6 @@ header {
 	position: relative;
 }
 
-.banner {
-	background-image: url('assets/WE_banner.png');
-	background-size: contain;
-	background-repeat: no-repeat;
-	height: 50vh;
-	width: 100%;
-	margin: auto 0px;
-}
-
 .logo img {
 	height: 100%;
 	width: 100%;
@@ -55,7 +44,7 @@ header {
 
 /* Main Styles */
 #main_content {
-	height: 50vh;
+	height: 70vh;
 	overflow: auto;
 }
 
