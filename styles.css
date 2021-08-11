@@ -44,7 +44,7 @@ header {
 
 /* Main Styles */
 #main_content {
-	height: 70vh;
+	max-height: 100vh;
 	overflow: auto;
 }
 
